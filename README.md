@@ -55,6 +55,8 @@ Blue: 57
 
 ---
 
+<br>
+
 ## Español
 
 Una aplicación de consola interactiva simple en Java que convierte un **código de color hexadecimal de 6 caracteres** en sus valores numéricos equivalentes **RGB (Rojo, Verde, Azul)**. 
