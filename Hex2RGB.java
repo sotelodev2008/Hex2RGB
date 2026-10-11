@@ -3,9 +3,16 @@ import java.util.InputMismatchException;
 
 public class Hex2RGB {
     public static void main(String[] args) {
+        String Banner = """
+88  88 888888 Yb  dP oP"Yb. 88""Yb  dP""b8 88""Yb 
+88  88 88__    YbdP  "' dP' 88__dP dP   `" 88__dP 
+888888 88""    dPYb    dP'  88"Yb  Yb  "88 88""Yb 
+88  88 888888 dP  Yb .d8888 88  Yb  YboodP 88oodP """;
+
         String[] quotes = null; // Digo que lo definire mas tarde
         calculator calc = new calculator();
-        System.out.println("1. English / 2. Español");
+        System.out.println("\n"+Banner);
+        System.out.println("\n1. English / 2. Español");
         try(Scanner key = new Scanner(System.in);) {
             int lang = key.nextInt();
             if (lang == 1) {
